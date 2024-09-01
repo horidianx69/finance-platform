@@ -19,10 +19,10 @@ export default function RootLayout({
     <ClerkProvider>
         <html lang="en">
           <body className={inter.className}>
-            <header className="flex justify-between">
+            {/* <header className="flex justify-between">
               <h1>Finance-Platform</h1>
               <UserButton showName/>
-            </header>
+            </header> */}
             {children}
             </body>
         </html>
